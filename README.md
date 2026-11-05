@@ -43,5 +43,3 @@ The sidebar has a **replay clock**: pick any hour and the map, alerts and decisi
 4. **Local time.** Charts use Pacific time (AIS is UTC).
 5. Dropped per your scope list: Optuna, Isolation Forest, live feed. PortWatch data was not supplied.
 
-## Read before presenting
-Two weeks of one port is a small sample. Say so, say the demurrage rate is an assumption, and lead with the finding that ML helps at a day ahead but not at a few hours.
