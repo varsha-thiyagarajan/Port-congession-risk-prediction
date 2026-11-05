@@ -1,0 +1,21 @@
+horizon_h,model,n_test_hours,n_high_hours,macro_F1,recall_High,precision_High,high_caught,false_alarms
+3,Baseline: class of queue now,144,54,0.755,0.944,0.911,51,5
+3,Class from blend forecast,144,54,0.711,0.944,0.911,51,5
+3,LightGBM classifier,144,54,0.562,0.63,0.872,34,5
+3,Random Forest classifier,144,54,0.592,0.741,0.8,40,10
+3,Logistic Regression classifier,144,54,0.59,0.796,0.827,43,9
+6,Baseline: class of queue now,140,52,0.626,0.885,0.852,46,8
+6,Class from blend forecast,140,52,0.698,0.904,0.887,47,6
+6,LightGBM classifier,140,52,0.51,0.596,0.861,31,5
+6,Random Forest classifier,140,52,0.496,0.538,0.824,28,6
+6,Logistic Regression classifier,140,52,0.539,0.692,0.783,36,10
+12,Baseline: class of queue now,134,43,0.58,0.674,0.659,29,15
+12,Class from blend forecast,134,43,0.553,0.767,0.846,33,6
+12,LightGBM classifier,134,43,0.442,0.302,0.619,13,8
+12,Random Forest classifier,134,43,0.432,0.279,0.632,12,7
+12,Logistic Regression classifier,134,43,0.563,0.558,0.889,24,3
+24,Baseline: class of queue now,128,32,0.359,0.469,0.312,15,33
+24,Class from blend forecast,128,32,0.473,0.625,0.444,20,25
+24,LightGBM classifier,128,32,0.44,0.531,0.607,17,11
+24,Random Forest classifier,128,32,0.473,0.438,0.875,14,2
+24,Logistic Regression classifier,128,32,0.56,0.594,0.704,19,8

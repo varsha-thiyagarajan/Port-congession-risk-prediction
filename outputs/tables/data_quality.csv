@@ -1,0 +1,7 @@
+step,rows_removed,rows_remaining,pct_of_start
+"Rows in filtered AIS file (cargo + tanker, LA/LB box)",183736,183736,100.0
+Invalid / missing position,0,183736,100.0
+"Missing or impossible speed (missing, <0 or >35 kn)",128,183608,99.93
+Duplicate ship + timestamp,11,183597,99.92
+Position jump (implied speed > 45 kn),33,183564,99.91
+Final analysis table (ping level),0,183564,99.91

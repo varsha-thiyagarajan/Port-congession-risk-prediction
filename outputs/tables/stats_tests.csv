@@ -1,0 +1,16 @@
+test,question,n,statistic,p_value,effect_size,effect_measure,conclusion
+Kruskal-Wallis,Queue size differs between 4 time-of-day blocks?,253,3.1869,0.3637,0.0008,epsilon^2,not significant
+Mann-Whitney,Queue size differs weekday vs weekend? (only 2 weekends of data),253,6313.0,0.029,0.1623,rank-biserial,significant (p < 0.05)
+Kruskal-Wallis,"Queue size differs by berth occupancy level (same hour, diagnostic only)",253,50.1127,0.0,0.1925,epsilon^2,significant (p < 0.05)
+Spearman,Queue vs berth occupancy (raw),252,,0.0,-0.4686,rho,significant (p < 0.05)
+Spearman,Queue vs berth occupancy (after removing 2-week trend),252,,0.0,-0.5315,rho,significant (p < 0.05)
+Spearman,Queue vs new ships at anchor (raw),252,,0.0006,0.2153,rho,significant (p < 0.05)
+Spearman,Queue vs new ships at anchor (after removing 2-week trend),252,,0.1921,0.0824,rho,not significant
+Spearman,Queue vs wave height (raw),252,,0.0,-0.3383,rho,significant (p < 0.05)
+Spearman,Queue vs wave height (after removing 2-week trend),252,,0.0,-0.3043,rho,significant (p < 0.05)
+Spearman,Queue vs wind speed (raw),252,,0.2349,0.0751,rho,not significant
+Spearman,Queue vs wind speed (after removing 2-week trend),252,,0.2185,0.0778,rho,not significant
+Fisher exact,Tankers delayed > 6 h more often than cargo ships?,123,,0.0042,5.2,odds ratio,significant (p < 0.05)
+Mann-Whitney,Hours to berth differ tanker vs cargo?,123,1525.0,0.0064,,,significant (p < 0.05)
+Kruskal-Wallis,Hours to berth differ by ship size class?,123,1.9058,0.3856,0.0,epsilon^2,not significant
+Mann-Whitney,Hours to berth differ by approach (West vs South)?,123,2277.0,0.0009,,,significant (p < 0.05)

@@ -1,0 +1,4 @@
+assumed_rate_usd_per_ship_day,queue_cost_usd,avoided_if_10pct,avoided_if_20pct
+15000,1001250.0,100125.0,200250.0
+30000,2002500.0,200250.0,400500.0
+45000,3003750.0,300375.0,600750.0

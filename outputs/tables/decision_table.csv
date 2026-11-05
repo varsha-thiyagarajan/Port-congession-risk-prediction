@@ -1,0 +1,13 @@
+congestion,trigger,client,action
+Low,queue <= 5 ships,Port authority,Normal berth schedule. Use the quiet window for maintenance and dredging checks.
+Low,queue <= 5 ships,Shipping company,Sail at planned speed. Confirm berth window as usual.
+Low,queue <= 5 ships,Logistics planner,Plan trucks and rail on the vessel's published ETA.
+Low,queue <= 5 ships,Marine operations,Standard pilot and tug roster.
+Medium,queue 6-8 ships,Port authority,Re-sequence berth slots so ships already waiting get priority. Publish the day-ahead forecast.
+Medium,queue 6-8 ships,Shipping company,Ask for a confirmed berth window before final approach. Prepare to slow-steam to save fuel.
+Medium,queue 6-8 ships,Logistics planner,Add a buffer of several hours to container pickup times and book extra chassis.
+Medium,queue 6-8 ships,Marine operations,Put one extra pilot boat and tug on standby. Check anchorage spacing.
+High,queue > 8 ships,Port authority,Prioritise berths for ships that have waited longest. Coordinate arrival slots with terminals. Open overflow anchorage.
+High,queue > 8 ships,Shipping company,Slow steam now rather than wait at anchor. Warn charterers about demurrage risk. Send early delay alerts.
+High,queue > 8 ships,Logistics planner,"Delay truck bookings, move containers to alternative days, alert customers to late cargo."
+High,queue > 8 ships,Marine operations,Roster extra pilots and tugs. Increase anchorage monitoring and long-stay vessel checks.

@@ -1,0 +1,9 @@
+feature,mean_abs_shap
+"Average queue, last 24 h",1.9327641844764447
+Queue now,0.4636983897121198
+"Queue variability, last 24 h",0.20690791142036677
+"Queue change, last 3 h",0.19106043553230778
+Queue 6 h ago,0.17599507753812257
+Time of day (cos),0.16817612269046714
+Queue 3 h ago,0.09608757752683225
+Time of day (sin),0.0791508027673011

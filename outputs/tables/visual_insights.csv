@@ -1,0 +1,15 @@
+id,visual,client,so_what
+V01,Study area and zones,Marine operations,21% of all pings come from ships sitting still at anchorage and 57% from berths: the zones capture real port behaviour.
+V02,Traffic density,Port authority,"Ships funnel through two approach lanes; anchorage pressure builds just outside them, so approach scheduling is where coordination pays off."
+V03,Congestion hotspots (DBSCAN),Marine operations,Hotspot A and Hotspot B alone hold 29% of all anchor ship-hours: monitor these two spots first.
+V04,Hourly queue timeline,Port authority,"The queue ranges from 2 to 12 ships and sits in High (>8) for 21% of hours: congestion is recurring, not a one-off."
+V05,Time from port entry to berth,Shipping company,105 of 123 ships reach berth in about 3.5 h; 18 wait a median of 23 h (up to 114 h). Those 18 ships cause 95% of all delay hours.
+V06,Delay by vessel type,Shipping company,36% of tankers are delayed vs 10% of cargo ships (Fisher p = 0.004): tanker berth requests need earlier confirmation.
+V07,Arrivals by hour,Marine operations,36% of arrivals come between 00:00 and 04:00 local time: roster pilots and tugs for that window.
+V08,Queue by time of day,Port authority,Queue size does not depend on time of day (Kruskal-Wallis p = 0.36): a fixed daily timetable will not fix congestion.
+V09,Correlations,Port authority,"Rougher sea went with SHORTER queues (rho -0.34, -0.30 after removing the trend), and ships at berth rise as the queue drains (rho -0.47): the opposite of 'bad weather causes delays'. With 2 weeks of data this is association only; weather added little to forecasts."
+V10,Daily average queue,Logistics planner,"The daily average queue swings from 3.4 to 10.3 ships: plan buffers by the day, not by the hour."
+V11,Demurrage scenario,Shipping company,"At the middle assumed rate ($30,000/ship/day) the queue cost about $2.0M in 11 days; cutting it 10% avoids about $0.20M. Rates are assumptions."
+V12,Model vs naive by horizon,Port authority,At 3 h the naive rule wins (error 0.79 vs 1.02); at 24 h the model cuts error by 32% (3.01 to 2.04 ships). Use the model for day-ahead planning.
+V13,24-hour forecast vs actual,Logistics planner,"Forecasts made a day ahead follow the swings but miss sharp peaks (RMSE 2.5 ships): treat them as a planning signal, not a promise."
+V14,High-congestion warning,Marine operations,Logistic Regression classifier catches 19 of 32 High hours with 8 false alarms; the naive rule catches 15 with 33 false alarms.

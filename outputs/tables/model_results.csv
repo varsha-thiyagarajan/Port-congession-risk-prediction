@@ -1,0 +1,25 @@
+horizon_h,model,n_test_hours,MAE,RMSE,R2,skill_vs_persistence_pct
+3,Baseline: same as now,144,0.785,1.152,0.822,0.0
+3,Baseline: average of last 24 h,144,2.017,2.346,0.263,-157.068
+3,Linear Regression (Ridge),144,1.021,1.274,0.783,-30.125
+3,Random Forest,144,1.061,1.368,0.749,-35.241
+3,LightGBM,144,1.072,1.37,0.749,-36.657
+3,Final: Ridge + RF + LightGBM blend,144,1.019,1.304,0.772,-29.916
+6,Baseline: same as now,140,1.164,1.528,0.691,0.0
+6,Baseline: average of last 24 h,140,2.298,2.664,0.061,-97.354
+6,Linear Regression (Ridge),140,1.413,1.707,0.615,-21.392
+6,Random Forest,140,1.373,1.734,0.602,-17.961
+6,LightGBM,140,1.402,1.759,0.591,-20.391
+6,Final: Ridge + RF + LightGBM blend,140,1.328,1.666,0.633,-14.057
+12,Baseline: same as now,134,1.716,2.218,0.304,0.0
+12,Baseline: average of last 24 h,134,2.738,3.17,-0.421,-59.498
+12,Linear Regression (Ridge),134,1.984,2.314,0.243,-15.567
+12,Random Forest,134,1.828,2.245,0.287,-6.477
+12,LightGBM,134,1.737,2.128,0.359,-1.228
+12,Final: Ridge + RF + LightGBM blend,134,1.752,2.094,0.38,-2.098
+24,Baseline: same as now,128,3.008,3.491,-1.041,0.0
+24,Baseline: average of last 24 h,128,3.549,4.016,-1.701,-18.005
+24,Linear Regression (Ridge),128,2.719,3.143,-0.654,9.601
+24,Random Forest,128,2.206,2.701,-0.222,26.643
+24,LightGBM,128,2.202,2.696,-0.217,26.774
+24,Final: Ridge + RF + LightGBM blend,128,2.044,2.524,-0.067,32.037

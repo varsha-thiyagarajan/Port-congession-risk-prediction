@@ -1,0 +1,21 @@
+horizon_h,feature_set,n_features,MAE_blend,MAE_persistence
+3,Queue history + time of day (final),8,1.019,0.785
+3,+ berth occupancy & arrivals,12,1.067,0.785
+3,+ weekday,9,1.035,0.785
+3,"+ weather (wave, wind)",10,1.027,0.785
+3,Everything,15,1.094,0.785
+6,Queue history + time of day (final),8,1.328,1.164
+6,+ berth occupancy & arrivals,12,1.409,1.164
+6,+ weekday,9,1.375,1.164
+6,"+ weather (wave, wind)",10,1.23,1.164
+6,Everything,15,1.367,1.164
+12,Queue history + time of day (final),8,1.752,1.716
+12,+ berth occupancy & arrivals,12,2.027,1.716
+12,+ weekday,9,1.833,1.716
+12,"+ weather (wave, wind)",10,1.687,1.716
+12,Everything,15,1.995,1.716
+24,Queue history + time of day (final),8,2.044,3.008
+24,+ berth occupancy & arrivals,12,2.179,3.008
+24,+ weekday,9,2.177,3.008
+24,"+ weather (wave, wind)",10,1.948,3.008
+24,Everything,15,2.147,3.008
